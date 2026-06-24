@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+    height: 80px;
+    padding: 20px;
+    background-color: #0074e7;
+}
+
+.title{
+    color: #fff;
+}
+
+.body{
+    margin-top: 20px;
+}
+
+.inputs{
+    width: 50%;
+    margin: auto;
+}
+
+.inputs h2{
+    text-align: center;
+}
+
+.inputs label{
+    display: block;
+    text-align: center;
+}
+
+.inputs input{
+    width: 80%;
+    margin: auto;
+    display: block;
+}
