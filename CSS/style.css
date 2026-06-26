@@ -11,6 +11,7 @@
 }
 
 .title{
+    font-size: 20px;
     color: #fff;
 }
 
@@ -23,17 +24,45 @@
     margin: auto;
 }
 
+.inputs *{
+    margin: 10px 0;
+}
+
 .inputs h2{
+    font-size: xx-large;
     text-align: center;
 }
 
 .inputs label{
+    font-size: larger;
     display: block;
     text-align: center;
 }
 
 .inputs input{
     width: 80%;
+    height: 30px;
+    padding: 5px;
     margin: auto;
     display: block;
+    text-align: center;
+}
+
+.inputs button{
+    width: 50%;
+    height: 35px;
+    padding: 3px;
+    margin: 10px auto;
+    background-color: #207be6;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    display: block;
+    text-align: center;
+    transition: ease-in-out 0.5s;
+}
+
+.inputs button:hover{
+    background-color: #135cb0;
+    color: #f0ecec;
 }
